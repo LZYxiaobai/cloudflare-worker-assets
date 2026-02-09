@@ -16,7 +16,7 @@ sniffer:
 proxy-providers:
   provider1:
     type: http
-    url: "https://config.lzyxiaobai.top/proxy-configs/verify/lzy114514xiao1919810bai/clash-proxies.yaml"
+    url: "https://assets.lzyxiaobai.top/static/proxy/clash-proxies.yaml"
     proxy: DIRECT
     size-limit: 0
     interval: 3600
