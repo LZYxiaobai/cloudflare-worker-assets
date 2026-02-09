@@ -1,0 +1,320 @@
+proxies:
+  - name: "JP-TYO(hd-hysteria2)"
+    type: hysteria2
+    server: h-jp.lzyxiaobai.top
+    port: 443
+    password: lzyxiaobai1145141919810
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE7+DQBKAAAgACDKxnK9aDkoUIpoD4fD/xEbgdcrAdA/OYjL221lpH5lGAAMAAEAAQABAAIAAQADABNoLWpwLmx6eXhpYW9iYWkudG9wAAA=
+
+  - name: "JP-TYO(hd-hysteria2无过滤)"
+    type: hysteria2
+    server: h-jp.lzyxiaobai.top
+    port: 443
+    password: 0d000721
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE7+DQBKAAAgACDKxnK9aDkoUIpoD4fD/xEbgdcrAdA/OYjL221lpH5lGAAMAAEAAQABAAIAAQADABNoLWpwLmx6eXhpYW9iYWkudG9wAAA=
+
+  - name: "JP-TYO(hd-reality)"
+    type: vless
+    server: h-jp.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-tyo3.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "JP-TYO(hd-reality无过滤)"
+    type: vless
+    server: h-jp.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-tyo3.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+    
+  - name: "JP-TYO(ac-jpsb-hysteria2)"
+    type: hysteria2
+    server: ac-jpsb2.lzyxiaobai.top
+    port: 443
+    password: lzyxiaobai1145141919810
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AFL+DQBOAAAgACBx5vauSJsN8It3FP11EvCgqXB/uk7eTAdGniKJP45PVQAMAAEAAQABAAIAAQADABdhYy1qcHNiMi5senl4aWFvYmFpLnRvcAAA
+
+  - name: "JP-TYO(ac-jpsb-hysteria2无过滤)"
+    type: hysteria2
+    server: ac-jpsb2.lzyxiaobai.top
+    port: 443
+    password: 0d000721
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AFL+DQBOAAAgACBx5vauSJsN8It3FP11EvCgqXB/uk7eTAdGniKJP45PVQAMAAEAAQABAAIAAQADABdhYy1qcHNiMi5senl4aWFvYmFpLnRvcAAA
+
+  - name: "JP-TYO(ac-jpsb-reality)"
+    type: vless
+    server: ac-jpsb2.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-tyo3.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "JP-TYO(ac-jpsb-reality无过滤)"
+    type: vless
+    server: ac-jpsb2.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-tyo3.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "HK(ac-hysteria2)"
+    type: hysteria2
+    server: ac-hk.lzyxiaobai.top
+    port: 443
+    password: lzyxiaobai1145141919810
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE/+DQBLAAAgACA6VUV3GdTlscpDDMIf7wWM1JLmQu1pxcKqbOeEocQHUQAMAAEAAQABAAIAAQADABRhYy1oay5senl4aWFvYmFpLnRvcAAA
+
+  - name: "HK(ac-hysteria2无过滤)"
+    type: hysteria2
+    server: ac-hk.lzyxiaobai.top
+    port: 443
+    password: 0d000721
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE/+DQBLAAAgACA6VUV3GdTlscpDDMIf7wWM1JLmQu1pxcKqbOeEocQHUQAMAAEAAQABAAIAAQADABRhYy1oay5senl4aWFvYmFpLnRvcAAA
+
+  - name: "HK(ac-reality)"
+    type: vless
+    server: ac-hk.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-hkg1.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+  
+  - name: "HK(ac-reality无过滤)"
+    type: vless
+    server: ac-hk.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-hkg1.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "HK(hy-reality)"
+    type: vless
+    server: hy-hk.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-hkg1.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+  
+  - name: "HK(hy-reality无过滤)"
+    type: vless
+    server: hy-hk.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cmp1-hkg1.steamserver.net
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "US-LAX(hd-reality)"
+    type: vless
+    server: hd-us.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cloud.digitalocean.com
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "US-LAX(hd-reality无过滤)"
+    type: vless
+    server: hd-us.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cloud.digitalocean.com
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "US-LAX(dr-reality)"
+    type: vless
+    server: dr-us.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-4d04-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cloud.digitalocean.com
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "US-LAX(dr-reality无过滤)"
+    type: vless
+    server: dr-us.lzyxiaobai.top
+    port: 443
+    udp: true
+    packet-encoding: xudp
+    network: tcp
+    flow: xtls-rprx-vision
+    uuid: 78827a38-c095-0479-a392-9e9f6fb41adf
+    encryption: "mlkem768x25519plus.native.0rtt.DkX35SKORKXFD0goZb4a3ecOt3XRtjysqWTSexRadHs.cjJXVmdEA7o2EIOpZ4ovCzAEU5wMlHwoihLBp9yYkbehDUOxk1RlFvyhnsmE9YVFR6YATHhOrIETSWI15wZVfTSGWXAyR_KB-yeO0aaiv9SObxfB1SS3FMo4nDUQ6tV67bFx-jecp3MhOoASWWGmudySPEwe_mMr4KkQeomDFEOftiFgvXSyaFVTDXGqQUOB9Jhb8Gdk4eANdeo4Jrlh1YCxYcxDrMZufbYXJlMnG6QtKjVFiwi2uJET8wkq3BQZU6FOx2FBNcAD05kf5wVTFxNNghgvuURhKpjMdsgdqjuLKHyqMGF8YeQ7NCA_UNYFEbJi8rMrM2I_ZSpvjuIkoYkYG4fIrtK8ftq1ycCiSTOGslnEL_emm5dBg-aIniqGjdCLszwr-1hcK_V04teH1EZLNOoDmcQIPBO-4dlyyTkN2YGePtRN6RB4b0GyyAG-LPgBDDcoLySwhInMxNqW5BSsvLFCOvtpZRDHjpDDu5og_xBNajYcDDxyoMed5OBv9PpONBFna_OVNNW8RWuOIMA3jEaWbGvOS3SzINseDyilkJka6OxjudMIUYBKr-K-hWRXYGhVL9Jxq-wo5FqTCVu1nCsPYjvAp7AbqHY38xZDxxlyfxUzP6ILOfKlzUJidWBh0czFN-hlfORCAdEadBTAZHyDBpo4VzCCdrRRmCpamhGbRElZF3ZxkUpqL4NlIuRZN1tGyDiivZNY8VZ79lMlq3iTkCmNUKeEu4uFrGE6oAOt3Ldau9O4T2MurOgr3WJuVslJgNpxuXkC5JJ852K-2iB1kGdr0rJB9aQdIpl-EraBUSU1JfzJmowyc0TP8Uy_P_QMUlyHMjNI5qYeXMmCNoO8wtuvOaiLD6YcdnxC03V1Y0ImjoJ0KBJ4G9Wwbwy4OPo5HdWDYdLNSqMer4HPz_jHQxE2L1TIqUPB6yR1NOIASnF6I2VYh9AqM0YBY8mCOIpWyukW9gZ8cGUD8OI88Ddql0c5KZCq4CI_JCwxXeu0ffVshyeTySevgmieljpzb7esW_B1TBZI-clP-lUdRQBjgtYEriSLCGoY3JJ5qCJabUi0lrmAEOqsQggDodWcwrw6SQIxWdNOBsa8aHK8GIZ2NOevH3VzSQRKvARdYnsCs8B2z-kGZ5BwXIvJrbpWy6ak2qtIWNcsRuQ4n5AsBLzA_cq8vAh-2tcl6-BhZaJ7xRE0q9uNl9KzW2KGxieg9hctDfU0JFlElxapi9uCoim_RCJGsOVcbZNjAmK09_B-ETtX0CgDiqYZzaSVg7d0_xRpgkihQotTZfEcW1y6XsgkAzk-psIUaRYw-eEwsdjKD0auGdsrBEY8gHYCibdL3Atxs9McXbykgkAtDzQHS6oEbAbMNwkb4bNfEKqHUziPmTzEghp4vumsDReU7HmCU3dBWRILQ9ADAkY8O4RFWCsRP2di1KM_j0x8sDkwM7SVLiMXe0gus4VFPpEbNTUeGXyN3-yFjwSDpgt_M1hx3dR08thszZO-zNknIkWw2La8GNMcNlwhElSB47RJyQ92nPiooITVh73o5uX6xZuFAZqFx4wgoB2zhPDsGoA"
+    tls: true
+    servername: cloud.digitalocean.com
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    reality-opts:
+      public-key: OwG0LHlo-sTcncA9TpeswPXPsgNlSBIDzmrLORHTxUw
+
+  - name: "US-LAX(dr-hysteria2)"
+    type: hysteria2
+    server: dr-us.lzyxiaobai.top
+    port: 443
+    password: lzyxiaobai1145141919810
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE/+DQBLAAAgACDqLEeAXKvHy1ij287t7GhyOwokV9SbQiBth5QL2rFAYwAMAAEAAQABAAIAAQADABRkci11cy5senl4aWFvYmFpLnRvcAAA
+
+  - name: "US-LAX(dr-hysteria2无过滤)"
+    type: hysteria2
+    server: dr-us.lzyxiaobai.top
+    port: 443
+    password: 0d000721
+    udp: true
+    skip-cert-verify: false
+    alpn:
+      - h3
+    ech-opts:
+      enable: true
+      config: AE/+DQBLAAAgACDqLEeAXKvHy1ij287t7GhyOwokV9SbQiBth5QL2rFAYwAMAAEAAQABAAIAAQADABRkci11cy5senl4aWFvYmFpLnRvcAAA

@@ -26,6 +26,6 @@ export default {
 			}
 		}
 
-		return new Response(null, { status: 403 });
+		return new Response('', { status: 403 });
 	},
 } satisfies ExportedHandler<Env>;
