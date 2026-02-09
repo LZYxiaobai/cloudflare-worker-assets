@@ -20,7 +20,7 @@
 		},
 		{
 			"zone_name": "lzyxiaobai.top",
-			"pattern": "assets.lzyxiaobai.top/api/*"
+			"pattern": "assets.lzyxiaobai.top/api/komari-bg"
 		}
 	],
 	/**
