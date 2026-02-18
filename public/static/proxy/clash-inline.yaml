@@ -16,7 +16,7 @@ sniffer:
 proxies:
   - name: "JP-TYO(竞技场-hysteria2)"
     type: hysteria2
-    server: ac-jpsb-share.lzyxiaobai.cc.cd
+    server: ac-jpsb-share.lzyxiaobai.qzz.io
     port: 443
     password: lzyxiaobai1145141919810
     udp: true
@@ -25,11 +25,11 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFn+DQBVAAAgACCZh39lRXwfWfVS5cchYgbtflMpVIsHuOrga2mw9K/iYAAMAAEAAQABAAIAAQADAB5hYy1qcHNiLXNoYXJlLmx6eXhpYW9iYWkuY2MuY2QAAA==
+      config: AFr+DQBWAAAgACATjEvbOoSbcOAPf+/0nVZw/lzWVDwBmO4T5B1cWPtjMAAMAAEAAQABAAIAAQADAB9hYy1qcHNiLXNoYXJlLmx6eXhpYW9iYWkucXp6LmlvAAA=
 
   - name: "JP-TYO(竞技场-hysteria2无过滤)"
     type: hysteria2
-    server: ac-jpsb-share.lzyxiaobai.cc.cd
+    server: ac-jpsb-share.lzyxiaobai.qzz.io
     port: 443
     password: 0d000721
     udp: true
@@ -38,11 +38,11 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFn+DQBVAAAgACCZh39lRXwfWfVS5cchYgbtflMpVIsHuOrga2mw9K/iYAAMAAEAAQABAAIAAQADAB5hYy1qcHNiLXNoYXJlLmx6eXhpYW9iYWkuY2MuY2QAAA==
+      config: AFr+DQBWAAAgACATjEvbOoSbcOAPf+/0nVZw/lzWVDwBmO4T5B1cWPtjMAAMAAEAAQABAAIAAQADAB9hYy1qcHNiLXNoYXJlLmx6eXhpYW9iYWkucXp6LmlvAAA=
 
   - name: "JP-TYO(竞技场-reality)"
     type: vless
-    server: ac-jpsb-share.lzyxiaobai.cc.cd
+    server: ac-jpsb-share.lzyxiaobai.qzz.io
     port: 443
     udp: true
     packet-encoding: xudp
@@ -60,7 +60,7 @@ proxies:
 
   - name: "JP-TYO(竞技场-reality无过滤)"
     type: vless
-    server: ac-jpsb-share.lzyxiaobai.cc.cd
+    server: ac-jpsb-share.lzyxiaobai.qzz.io
     port: 443
     udp: true
     packet-encoding: xudp
