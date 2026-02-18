@@ -1,7 +1,7 @@
 proxies:
   - name: "JP-TYO(竞技场-hysteria2)"
     type: hysteria2
-    server: ac-jpsb-share.lzyxiaobai.top
+    server: ac-jpsb-share.lzyxiaobai.cc.cd
     port: 443
     password: lzyxiaobai1145141919810
     udp: true
@@ -14,7 +14,7 @@ proxies:
 
   - name: "JP-TYO(竞技场-hysteria2无过滤)"
     type: hysteria2
-    server: ac-jpsb-share.lzyxiaobai.top
+    server: ac-jpsb-share.lzyxiaobai.cc.cd
     port: 443
     password: 0d000721
     udp: true
@@ -27,7 +27,7 @@ proxies:
 
   - name: "JP-TYO(竞技场-reality)"
     type: vless
-    server: ac-jpsb-share.lzyxiaobai.top
+    server: ac-jpsb-share.lzyxiaobai.cc.cd
     port: 443
     udp: true
     packet-encoding: xudp
@@ -45,7 +45,7 @@ proxies:
 
   - name: "JP-TYO(竞技场-reality无过滤)"
     type: vless
-    server: ac-jpsb-share.lzyxiaobai.top
+    server: ac-jpsb-share.lzyxiaobai.cc.cd
     port: 443
     udp: true
     packet-encoding: xudp
