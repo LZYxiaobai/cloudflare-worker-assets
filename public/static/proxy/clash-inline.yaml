@@ -78,7 +78,7 @@ proxies:
     
   - name: "JP-TYO(ac-jpsb-hysteria2)"
     type: hysteria2
-    server: ac-jpsb2.lzyxiaobai.top
+    server: ac-jpsb3.lzyxiaobai.top
     port: 443
     password: lzyxiaobai1145141919810
     udp: true
@@ -87,11 +87,11 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFL+DQBOAAAgACBx5vauSJsN8It3FP11EvCgqXB/uk7eTAdGniKJP45PVQAMAAEAAQABAAIAAQADABdhYy1qcHNiMi5senl4aWFvYmFpLnRvcAAA
+      config: AFL+DQBOAAAgACBZUn+GEKRfA7ZPopNTgY6kiyYfcTRSSuQuc0lb74xUCwAMAAEAAQABAAIAAQADABdhYy1qcHNiMy5senl4aWFvYmFpLnRvcAAA
 
   - name: "JP-TYO(ac-jpsb-hysteria2无过滤)"
     type: hysteria2
-    server: ac-jpsb2.lzyxiaobai.top
+    server: ac-jpsb3.lzyxiaobai.top
     port: 443
     password: 0d000721
     udp: true
@@ -100,11 +100,11 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFL+DQBOAAAgACBx5vauSJsN8It3FP11EvCgqXB/uk7eTAdGniKJP45PVQAMAAEAAQABAAIAAQADABdhYy1qcHNiMi5senl4aWFvYmFpLnRvcAAA
+      config: AFL+DQBOAAAgACBZUn+GEKRfA7ZPopNTgY6kiyYfcTRSSuQuc0lb74xUCwAMAAEAAQABAAIAAQADABdhYy1qcHNiMy5senl4aWFvYmFpLnRvcAAA
 
   - name: "JP-TYO(ac-jpsb-reality)"
     type: vless
-    server: ac-jpsb2.lzyxiaobai.top
+    server: ac-jpsb3.lzyxiaobai.top
     port: 443
     udp: true
     packet-encoding: xudp
@@ -122,7 +122,7 @@ proxies:
 
   - name: "JP-TYO(ac-jpsb-reality无过滤)"
     type: vless
-    server: ac-jpsb2.lzyxiaobai.top
+    server: ac-jpsb3.lzyxiaobai.top
     port: 443
     udp: true
     packet-encoding: xudp
