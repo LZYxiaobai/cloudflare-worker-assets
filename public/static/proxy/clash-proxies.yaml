@@ -10,7 +10,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE7+DQBKAAAgACDKxnK9aDkoUIpoD4fD/xEbgdcrAdA/OYjL221lpH5lGAAMAAEAAQABAAIAAQADABNoLWpwLmx6eXhpYW9iYWkudG9wAAA=
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "JP-TYO(hd-hysteria2无过滤)"
     type: hysteria2
@@ -23,7 +23,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE7+DQBKAAAgACDKxnK9aDkoUIpoD4fD/xEbgdcrAdA/OYjL221lpH5lGAAMAAEAAQABAAIAAQADABNoLWpwLmx6eXhpYW9iYWkudG9wAAA=
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "JP-TYO(hd-reality)"
     type: vless
@@ -72,7 +72,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFL+DQBOAAAgACBZUn+GEKRfA7ZPopNTgY6kiyYfcTRSSuQuc0lb74xUCwAMAAEAAQABAAIAAQADABdhYy1qcHNiMy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "JP-TYO(ac-jpsb-hysteria2无过滤)"
     type: hysteria2
@@ -85,7 +85,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AFL+DQBOAAAgACBZUn+GEKRfA7ZPopNTgY6kiyYfcTRSSuQuc0lb74xUCwAMAAEAAQABAAIAAQADABdhYy1qcHNiMy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "JP-TYO(ac-jpsb-reality)"
     type: vless
@@ -242,7 +242,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE/+DQBLAAAgACDqLEeAXKvHy1ij287t7GhyOwokV9SbQiBth5QL2rFAYwAMAAEAAQABAAIAAQADABRkci11cy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "US-LAX(dr-hysteria2无过滤)"
     type: hysteria2
@@ -255,7 +255,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE/+DQBLAAAgACDqLEeAXKvHy1ij287t7GhyOwokV9SbQiBth5QL2rFAYwAMAAEAAQABAAIAAQADABRkci11cy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "US-LAX(ac-reality)"
     type: vless
@@ -304,7 +304,7 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE/+DQBLAAAgACBAJ+v+S8k9+k2RkxmQb+/bQa3cPp/r4FIwX07uHkU+HwAMAAEAAQABAAIAAQADABRhYy11cy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
 
   - name: "US-LAX(ac-hysteria2无过滤)"
     type: hysteria2
@@ -317,4 +317,4 @@ proxies:
       - h3
     ech-opts:
       enable: true
-      config: AE/+DQBLAAAgACBAJ+v+S8k9+k2RkxmQb+/bQa3cPp/r4FIwX07uHkU+HwAMAAEAAQABAAIAAQADABRhYy11cy5senl4aWFvYmFpLnRvcAAA
+      config: AEb+DQBCAAAgACDsBsBTcXrVLmQbF+Lnw7KgtY3b5HqhFTGbFoGpJPn0ZQAMAAEAAQABAAIAAQADAAs3NTMwMTczLnh5egAA
