@@ -1,0 +1,28 @@
+ipv4 = "172.16.0.2/16"
+#listeners = []
+rpc_portal = "0.0.0.0:0"
+tcp_whitelist = []
+udp_whitelist = []
+listeners = ["tcp://0.0.0.0:54728", "faketcp://0.0.0.0:54729"]
+
+[network_identity]
+network_name = "lzyxiaobai-et-jp"
+network_secret = "114514lzyxbb"
+
+[[peer]]
+uri = "tcp://38.76.198.11:54728"
+[[peer]]
+uri = "tcp://45.196.218.54:54728"
+[[peer]]
+uri = "tcp://154.64.236.145:54728"
+[[peer]]
+uri = "tcp://103.212.187.82:54728"
+
+[flags]
+relay_all_peer_rpc = true
+relay_network_whitelist = ""
+accept_dns = true
+tld_dns_zone = "lzyxiaobai.top."
+enable_quic_proxy = true
+latency_first = false
+multi_thread = false
